@@ -25,6 +25,6 @@ main {
 }
 
 .container {
-  @apply mx-auto max-w-[1440px] px-5;
+  @apply mx-auto px-5;
 }
 </style>
