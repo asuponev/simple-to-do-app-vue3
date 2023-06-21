@@ -7,7 +7,7 @@ defineProps<{
 <template>
   <button
     :type="submitBtn ? 'submit' : 'button'"
-    class="bg-blue-500 w-40 px-4 py-3 rounded text-white hover:bg-blue-600 transition-colors duration-200 outline-none"
+    class="bg-blue-500 px-4 py-3 rounded text-white hover:bg-blue-600 transition-colors duration-200 outline-none"
   >
     <slot />
   </button>

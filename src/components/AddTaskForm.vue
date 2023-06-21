@@ -27,7 +27,7 @@ const onAddTodo = () => {
 <template>
   <form
     @submit.prevent="onAddTodo"
-    class="flex flex-col my-4"
+    class="my-4"
   >
     <input
       v-model="taskText"
