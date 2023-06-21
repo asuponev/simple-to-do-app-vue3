@@ -3,20 +3,25 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <header>
+  <header class="fixed top-0 w-full z-40 bg-gray-50">
     <div class="container">
       <div class="py-5 flex items-center justify-between">
-        <div class="font-bold">Simple To Do App</div>
+        <RouterLink
+          to="/"
+          class="font-bold"
+        >
+          Simple To Do App
+        </RouterLink>
         <nav class="flex items-center">
           <RouterLink
             to="/"
-            class="text-sky-600 hover:text-sky-800 mr-4"
+            class="hover:text-gray-600 mr-4 font-medium"
           >
             Главная
           </RouterLink>
           <RouterLink
             to="/todo"
-            class="text-sky-600 hover:text-sky-800"
+            class="hover:text-gray-600 font-medium"
           >
             Задачи
           </RouterLink>
