@@ -1,5 +1,5 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div>Список задач пусть</div>
+  <div>Список задач пуст</div>
 </template>
